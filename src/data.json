@@ -1,23 +1,35 @@
 [
   {
     "id": "1",
-    "title": "Trunks",
-    "descripcion": "Trunks es un personaje de la serie de anime y manga Dragon Ball. Es el hijo de Vegeta y Bulma, y es conocido por su cabello morado y su habilidad para viajar en el tiempo. Trunks es un guerrero valiente y poderoso que lucha para proteger a sus amigos y familiares.",
-    "imgKey": "trunks",
-    "color": "blueviolet"
+    "titulo": "Clean Code",
+    "autor": "Robert C. Martin",
+    "descripcion": "Un libro clave para escribir código más claro, mantenible y profesional. Explica principios, técnicas y buenas prácticas para mejorar la calidad del software.",
+    "categoria": "Programación",
+    "rating": 4.8,
+    "anio": 2008,
+    "imgKey": "cleanCode",
+    "pdf": "/pdfs/clean-code.pdf"
   },
   {
     "id": "2",
-    "title": "Gohan",
-    "descripcion": "Gohan es el hijo mayor de Goku y Chi-Chi. Aunque al principio se enfocó en la vida académica, con el tiempo se convirtió en un poderoso saiyajin con un gran potencial y un fuerte sentido de protección.",
-    "imgKey": "gohan",
-    "color": "darkorange"
+    "titulo": "Dune",
+    "autor": "Frank Herbert",
+    "descripcion": "Una novela de ciencia ficción épica con política, ecología, poder y destino. Un clásico imprescindible para quienes disfrutan de mundos complejos y narrativas profundas.",
+    "categoria": "Ciencia ficción",
+    "rating": 4.9,
+    "anio": 1965,
+    "imgKey": "dune",
+    "pdf": "https://example.com/dune.pdf"
   },
   {
     "id": "3",
-    "title": "Vegeta",
-    "descripcion": "Vegeta es el príncipe de los Saiyajin y uno de los guerreros más fuertes de Dragon Ball. Con disciplina, orgullo y fuerza bruta, se convirtió en un gran rival y aliado de Goku.",
-    "imgKey": "vegeta",
-    "color": "darkred"
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "descripcion": "Una reflexión intensa sobre vigilancia, libertad y manipulación del poder. Es una obra esencial de la literatura contemporánea y de la historia de la idea política.",
+    "categoria": "Novela",
+    "rating": 4.7,
+    "anio": 1949,
+    "imgKey": "novela1984",
+    "pdf": "/pdfs/1984.pdf"
   }
 ]
