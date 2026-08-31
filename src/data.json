@@ -43,4 +43,16 @@
     "imgKey": "habitosAtomicos",
     "pdf": "/pdfs/habitos-atomicos.pdf"
   }
+
+  {
+    "id": "5",
+    "titulo": "Si Lo Crees lo creas",
+    "autor": "Brian Tracy y la psicoterapeuta Christina Stein",
+    "descripcion": "Un libro que explora el poder de la mente y cómo nuestras creencias pueden influir en nuestra realidad. Ofrece estrategias para cambiar patrones de pensamiento y alcanzar metas personales.",
+    "categoria": "Autoayuda",
+    "rating": 4.8,
+    "anio": 2018,
+    "imgKey": "SiloCreesloCreas",
+    "pdf": "/pdfs/si-lo-crees-lo-creas.pdf"
+  }
 ]
