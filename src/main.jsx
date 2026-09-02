@@ -6,12 +6,14 @@ import cleanCode from './assets/vegeta.jpg'
 import dune from './assets/goham.jpg'
 import novela1984 from './assets/future-trunks-long-hair.jpg'
 import habitosAtomicos from './assets/habitosAtomicos.jpg'
+import SiloCreesloCreas from './assets/SiLoCreesLoCreas.jpg'
 
 const imagenes = {
   cleanCode,
   dune,
   novela1984,
   habitosAtomicos,
+  SiloCreesloCreas,
 }
 
 createRoot(document.getElementById('root')).render( 

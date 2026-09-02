@@ -26,5 +26,12 @@
     "descripcion": "Un enfoque práctico para desarrollar buenos hábitos y romper los malos mediante pequeños cambios capaces de producir grandes resultados.",
     "imgKey": "habitosAtomicos",
     "color": "darkred"
+  },
+  {
+    "id": "5",
+    "title": "Si Lo Crees lo creas",
+    "descripcion": "Un libro que explora el poder de la mente y cómo nuestras creencias pueden influir en nuestra realidad. Ofrece estrategias para cambiar patrones de pensamiento y alcanzar metas personales.",
+    "imgKey": "SiloCreesloCreas",
+    "color": "darkgreen"
   }
 ]
