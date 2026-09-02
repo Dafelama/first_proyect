@@ -1,46 +1,30 @@
 [
   {
     "id": "1",
-    "titulo": "Clean Code",
-    "autor": "Robert C. Martin",
-    "descripcion": "Un libro clave para escribir código más claro, mantenible y profesional. Explica principios, técnicas y buenas prácticas para mejorar la calidad del software.",
-    "categoria": "Programación",
-    "rating": 4.8,
-    "anio": 2008,
+    "title": "Clean Code",
+    "descripcion": "Una guía esencial para escribir código limpio, claro y fácil de mantener. Robert C. Martin explica principios y buenas prácticas para mejorar la calidad del software.",
     "imgKey": "cleanCode",
-    "pdf": "/pdfs/clean-code.pdf"
+    "color": "blueviolet"
   },
   {
     "id": "2",
-    "titulo": "Dune",
-    "autor": "Frank Herbert",
-    "descripcion": "Una novela de ciencia ficción épica con política, ecología, poder y destino. Un clásico imprescindible para quienes disfrutan de mundos complejos y narrativas profundas.",
-    "categoria": "Ciencia ficción",
-    "rating": 4.9,
-    "anio": 1965,
+    "title": "Dune",
+    "descripcion": "Una novela de ciencia ficción épica sobre política, ecología, poder y destino, ambientada en uno de los universos más complejos de la literatura.",
     "imgKey": "dune",
-    "pdf": "https://example.com/dune.pdf"
+    "color": "darkorange"
   },
   {
     "id": "3",
-    "titulo": "1984",
-    "autor": "George Orwell",
-    "descripcion": "Una reflexión intensa sobre vigilancia, libertad y manipulación del poder. Es una obra esencial de la literatura contemporánea y de la historia de la idea política.",
-    "categoria": "Novela",
-    "rating": 4.7,
-    "anio": 1949,
+    "title": "1984",
+    "descripcion": "Una reflexión intensa sobre la vigilancia, la libertad y la manipulación del poder. Una obra fundamental de la literatura contemporánea.",
     "imgKey": "novela1984",
-    "pdf": "/pdfs/1984.pdf"
+    "color": "darkred"
   },
   {
     "id": "4",
-    "titulo": "Hábitos Atómicos",
-    "autor": "James Clear",
-    "descripcion": "Un enfoque práctico para desarrollar buenos hábitos y romper los malos. Explica cómo pequeños cambios pueden tener un impacto significativo en nuestra vida.",
-    "categoria": "Autoayuda",
-    "rating": 4.8,
-    "anio": 2018,
+    "title": "Hábitos Atómicos",
+    "descripcion": "Un enfoque práctico para desarrollar buenos hábitos y romper los malos mediante pequeños cambios capaces de producir grandes resultados.",
     "imgKey": "habitosAtomicos",
-    "pdf": "/pdfs/habitos-atomicos.pdf"
+    "color": "darkred"
   }
 ]

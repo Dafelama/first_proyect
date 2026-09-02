@@ -11,28 +11,21 @@ const imagenes = {
   cleanCode,
   dune,
   novela1984,
-  habitosAtomicos
+  habitosAtomicos,
 }
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render( 
   <StrictMode>
-    <header className='Cabecera'>
-      <div className='Cabecera__Decoracion' aria-hidden='true'></div>
-      <h1>Library Project</h1>
-    </header>
+    <h1>Library Project</h1>
 
     {
       libros.map((libro) => (
         <Tarjeta
           key={libro.id}
-          titulo={libro.titulo}
-          autor={libro.autor}
+          title={libro.title}
           descripcion={libro.descripcion}
-          categoria={libro.categoria}
-          rating={libro.rating}
-          anio={libro.anio}
-          img={imagenes[libro.imgKey]}
-          pdf={libro.pdf}
+          img={imagenes[libro.imgKey] || libro.img}
+          color={libro.color}
         />
       ))
     }

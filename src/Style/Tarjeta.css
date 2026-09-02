@@ -1,110 +1,18 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, #f9f5ef 0%, #efe7db 100%);
-}
-
-.Cabecera {
-    position: relative;
+.Centrar{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 20px 10px;
-    text-align: center;
-    background: linear-gradient(135deg, #2f3e46, #5c7c7a);
-    color: white;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-    overflow: hidden;
-}
-
-.Cabecera__Decoracion {
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(circle at center, rgba(255,255,255,0.18), transparent 55%);
-}
-
-.Cabecera h1 {
-    position: relative;
-    z-index: 1;
-    margin: 0;
-    font-size: clamp(2rem, 4vw, 3.2rem);
-    letter-spacing: 2px;
-}
-
-.CentraC {
-    display: flex;
-    justify-content: center;
-    padding: 24px;
-}
-
-.Tarjeta {
-    display: flex;
+    flex-direction: row;
+    width: 60x;
+    height: 200px;
+    border: 5px solid black;
     gap: 20px;
-    width: 900px;
-    max-width: 100%;
-    background: white;
-    border: 2px solid #ddd;
-    border-radius: 18px;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
-    padding: 18px;
 }
-
-.Tarjeta img {
-    width: 180px;
-    height: 240px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 2px solid #d8d8d8;
-}
-
-.Tarjeta__Info {
-    display: flex;
+.Orde{
     flex-direction: column;
-    justify-content: center;
-    flex: 1;
 }
-
-.Tarjeta__Info h1 {
-    margin: 0;
-    font-size: 2rem;
-    color: #1d1d1d;
-}
-
-.Tarjeta__Autor {
-    margin: 8px 0 12px;
-    font-size: 1.1rem;
-    color: #4c4c4c;
-    font-weight: 600;
-}
-
-.Tarjeta__Meta {
+.CentrarC{
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 12px;
-}
-
-.Tarjeta__Meta span {
-    background: #f0ece6;
-    color: #2f2f2f;
-    padding: 6px 10px;
-    border-radius: 999px;
-    font-size: 0.8rem;
-    font-weight: 700;
-}
-
-.Tarjeta__Boton {
-    display: inline-block;
-    margin-top: 12px;
-    width: fit-content;
-    background: #1f5eff;
-    color: white;
-    text-decoration: none;
-    padding: 10px 16px;
-    border-radius: 10px;
-    font-weight: 700;
-}
-
-.Tarjeta__Boton:hover {
-    background: #1849c4;
+    justify-content: center; /* Centrar Horizontalemnte */
+    align-items: center; /* Centrar Verticalmente */
 }
