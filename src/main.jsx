@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Tarjeta from './Orquestador/Tarjeta'
+import Form from './Componentes/Form'
 import libros from './data.json'
 import cleanCode from './assets/vegeta.jpg'
 import dune from './assets/goham.jpg'
@@ -18,7 +19,10 @@ const imagenes = {
 
 createRoot(document.getElementById('root')).render( 
   <StrictMode>
-    <h1>Library Project</h1>
+    <header className='LibraryHeader'>
+      <h1>Library Project</h1>
+      <Form />
+    </header>
 
     {
       libros.map((libro) => (
