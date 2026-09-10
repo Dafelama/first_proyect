@@ -1,5 +1,11 @@
 [
   {
+   "id": 0,
+   "title":"RECOMENDACIONES DE LIBROS FELIPE Y JEIMY",
+   "descripcion":"Este es un espacio creado por Felipe y Jeimy para compartir con ustedes los libros que más nos han marcado y que consideramos una lectura obligada. Aquí no encontrarán reseñas cualquiera: cada libro que aparece en esta lista fue elegido porque realmente vale la pena, ya sea por lo que enseña, por cómo está escrito, o por la forma en que te hace pensar diferente.",
+   "img":"https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg"
+  },
+  {
     "id": "1",
     "title": "Clean Code",
     "descripcion": "Una guía esencial para escribir código limpio, claro y fácil de mantener. Robert C. Martin explica principios y buenas prácticas para mejorar la calidad del software.",
@@ -19,19 +25,19 @@
     "descripcion": "Una reflexión intensa sobre la vigilancia, la libertad y la manipulación del poder. Una obra fundamental de la literatura contemporánea.",
     "imgKey": "novela1984",
     "color": "darkred"
-  },
-  {
-    "id": "4",
-    "title": "Hábitos Atómicos",
-    "descripcion": "Un enfoque práctico para desarrollar buenos hábitos y romper los malos mediante pequeños cambios capaces de producir grandes resultados.",
-    "imgKey": "habitosAtomicos",
-    "color": "darkred"
-  },
-  {
-    "id": "5",
-    "title": "Si Lo Crees lo creas",
-    "descripcion": "Un libro que explora el poder de la mente y cómo nuestras creencias pueden influir en nuestra realidad. Ofrece estrategias para cambiar patrones de pensamiento y alcanzar metas personales.",
-    "imgKey": "SiloCreesloCreas",
-    "color": "darkgreen"
-  }
+    },
+    {
+      "id": 6,
+      "title":"Cien años de soledad",
+      "descripcion":"Una obra maestra del realismo mágico, donde Gabriel García Márquez narra la historia de la familia Buendía en el pueblo ficticio de Macondo.",
+      "img":"https://images.cdn3.buscalibre.com/fit-in/660x660/f8/c2/f8c2431249a2531d1270846d3528a3a2.jpg",
+      "color":"PaleGreen"
+    },
+    {
+      "id": 7,
+      "title":"Metas Bryan Tracy",
+      "descripcion":" Una guía poderosa para definir y alcanzar tus objetivos con claridad y disciplina. Brian Tracy comparte estrategias probadas para establecer metas concretas, mantenerte enfocado y convertir tus sueños en logros reales paso a paso.",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nvsxu0CXisGU0NoPJ8hluGeTrrlvxUXV6stbwX3DXdBDQZcnAsPAHN4&s=10",
+      "color":"Lavender"
+    }
 ]
