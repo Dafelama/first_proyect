@@ -8,23 +8,7 @@
 .LibraryHeader h1{
     margin: 0;
 }
-.LibraryForm{
-    display: flex;
-    align-items: end;
-    gap: 12px;
-}
-.LibraryForm label{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    font-weight: 600;
-}
-.LibraryForm input{
-    width: 150px;
-    padding: 8px;
-    border: 1px solid #555;
-    border-radius: 4px;
-}
+
 .Centrar{
     display: flex;
     flex-direction: row;
