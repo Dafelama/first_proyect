@@ -1,7 +1,7 @@
 import '../Style/Tarjeta.css'
-import Titulo from '../Componentes/Titulo'
-import Imagen from '../Componentes/Imagen'
-import Descripcion from '../Componentes/Descripcion'
+import Titulo from '../Componentes/Tarjetas/Titulo'
+import Imagen from '../Componentes/Tarjetas/Imagen'
+import Descripcion from '../Componentes/Tarjetas/Descripcion'
 
 export default function Tarjeta({ title, descripcion, img, color }) {
     return (

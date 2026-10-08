@@ -6,7 +6,8 @@
 
 }
 
-.formulario input{
+.formulario input,
+.formulario textarea{
     width: 100%;
     padding: 8px;
     margin: 5px 0;
