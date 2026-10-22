@@ -1,17 +1,15 @@
-export default function Campos({ etiqueta, nombre, tipo, holder }) {
-    if (tipo === 'textarea') {
-        return (
-            <div className="campo">
-                <label htmlFor={nombre}>{etiqueta}</label>
-                <textarea id={nombre} name={nombre} placeholder={holder} rows="5" />
-            </div>
-        )
-    }
-
-    return (
-        <div className="campo">
+export default function Campos ({etiqueta,nombre,tipo,holder,valor,onCambio}){
+    return(
+        <div >
             <label htmlFor={nombre}>{etiqueta}</label>
-            <input type={tipo} id={nombre} name={nombre} placeholder={holder} />
+            <input
+                type={tipo}
+                id={nombre}
+                name={nombre}
+                placeholder={holder}
+                value={valor}
+                onChange={onCambio}
+            />
         </div>
     )
 }

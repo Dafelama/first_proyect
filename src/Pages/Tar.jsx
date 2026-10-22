@@ -1,11 +1,8 @@
 import Tarjeta from "../Orquestador/Tarjeta";
-import libros from "../data.json";
 import Boton2 from '../Componentes/Tarjetas/Boton2';
 import B from '../assets/B.jpg';
 
-
-
-export default function Tar() {
+export default function Tar({ tarjeta }) {
   return (
     <>
       <header className="LibraryHeader">
@@ -13,7 +10,7 @@ export default function Tar() {
       </header>
 
       <div>
-        {libros.map((libro) => (
+        {tarjeta.map((libro) => (
           <Tarjeta
             key={libro.id}
             title={libro.title}

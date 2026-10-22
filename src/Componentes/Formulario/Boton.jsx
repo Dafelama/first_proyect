@@ -1,7 +1,11 @@
-export default function Boton({ texto }) {
+export default function Boton({ tipo = "button", nombre, onClick }) {
     return(
-        <button className="boton">
-            {texto}
+        <button
+            className="boton"
+            type={tipo}
+            onClick={onClick}
+        >
+            {nombre}
         </button>
     );
 }
