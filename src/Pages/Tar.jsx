@@ -12,6 +12,7 @@ export default function Tar({ tarjeta }) {
       <div>
         {tarjeta.map((libro) => (
           <Tarjeta
+          
             key={libro.id}
             title={libro.title}
             descripcion={libro.descripcion}

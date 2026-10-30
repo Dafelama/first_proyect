@@ -2,8 +2,7 @@ import '../Style/Formulario.css'
 import Campos from "../Componentes/Formulario/Campos";
 import Boton from "../Componentes/Formulario/Boton";
 import Tarjeta from "../Orquestador/Tarjeta"
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+
 
 const Entradas=[
     {nombre:"Titulo",tipo:"text",holder:"Titulo de la tarjeta"},
@@ -14,32 +13,18 @@ const Entradas=[
 
 
 const inicial={Titulo:'',Imagen:'', Descripcion:'',Color:'' }
-export default function Formulario({agregar}){
-    const navigate=useNavigate()
-    const [datos,setDatos]=useState(inicial)
-    const cambiar=(e)=>{ //Cambia o modifica la funcion de arriba, y esa funcion queda atrapada en la variable
-        setDatos({...datos,[e.target.name]:e.target.value}) //sprit no definimo el numero de parametros que vamos a pasar y ese evento lo vamos a localizar a partir del nombre
-    }
-    const enviar = (e)=>{
-        e.preventDefault()
-        agregar({
-            title:datos.Titulo,
-            img:datos.Imagen,
-            descripcion:datos.Descripcion,
-            color:datos.Color
-
-        })
-    }
+export default function Formulario({datos,onCambio,onEnviar,onReset, onVolver}){
+    
     const Botones=[
     {tipo:"submit", nombre:"Enviar"},
-    {tipo:"button", nombre:"Volver",onClick:()=>navigate('/Tarjetas')},
+    {tipo:"button", nombre:"Volver",onClick:onVolver},
     {tipo:"reset", nombre:"Reset"}
 ]
 
 
     return(
         <div>
-            <form className="formulario" onSubmit={enviar} onReset={()=>setDatos(inicial)}>
+            <form className="formulario" onSubmit={onEnviar} onReset={onReset}>
                 {Entradas.map((campo)=>(
                     <Campos
                         key={campo.nombre}
@@ -48,7 +33,7 @@ export default function Formulario({agregar}){
                         tipo={campo.tipo}
                         holder={campo.holder}
                         valor={datos[campo.nombre]}
-                        onCambio={cambiar}
+                        onCambio={onCambio}
                     />
                 ))}
                 {Botones.map((boton)=>(
