@@ -9,6 +9,7 @@ export default function Campos ({etiqueta,nombre,tipo,holder,valor,onCambio}){
                 placeholder={holder}
                 value={valor}
                 onChange={onCambio}
+                required
             />
         </div>
     )

@@ -12,6 +12,16 @@ export default function useFormulario({agregar}){
         }
         const enviar = (e)=>{
             e.preventDefault()
+
+            
+        const hayVacios = Object.values(datos).some(
+            (valor) => String(valor).trim() === ""
+        )
+
+        if (hayVacios) {
+            alert("Completa todos los campos antes de enviar")
+            return
+        }
             agregar({
                 title:datos.Titulo,
                 img:datos.Imagen,
